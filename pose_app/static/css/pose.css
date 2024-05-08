@@ -1,0 +1,229 @@
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  overflow-x: hidden;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+#video {
+  display: none;
+  width: 640px;
+  height: 480px;
+}
+
+#canvas {
+  display: none;
+  width: 640px;
+  height: 480px;
+}
+
+#client {
+  background-color: black;
+  width: 640px;
+  height: 480px;
+}
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prob {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.canvas-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percent {
+  padding: 40px 90px 40px 90px;
+  border-radius: 20px;
+}
+
+.percent-green {
+  background-color: #95FB7B;
+}
+
+.percent-orange {
+  background-color: #F0A752;
+}
+
+.percent-red {
+  background-color: #F06552;
+}
+
+.back {
+  font-size: 30px;
+  background-color: #89f1ff;
+  padding: 30px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.back:hover {
+  background-color: #0fe3ff;
+}
+
+.pose_00 {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: end;
+  width: 150px;
+}
+
+.pose_00::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 25px;
+  margin-top: 10%;
+  background-color: #FFE500;
+  z-index: -1;
+}
+
+.pose_01 {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: end;
+  width: 150px;
+}
+
+.pose_01::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 25px;
+  margin-top: 10%;
+  background-color: #D3FF8B;
+  z-index: -1;
+}
+
+.pose_02 {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: end;
+  width: 150px;
+}
+
+.pose_02::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 25px;
+  margin-top: 10%;
+  background-color: #DB73FF;
+  z-index: -1;
+}
+
+.pose_03 {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: end;
+  width: 150px;
+}
+
+.pose_03::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 25px;
+  margin-top: 10%;
+  background-color: #FF8B8B;
+  z-index: -1;
+}
+
+.pose_04 {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: end;
+  width: 150px;
+}
+
+.pose_04::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 25px;
+  margin-top: 10%;
+  background-color: #9EEEFF;
+  z-index: -1;
+}
+
+.pose_05 {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: end;
+  width: 150px;
+}
+
+.pose_05::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 25px;
+  margin-top: 10%;
+  background-color: #FFB55E;
+  z-index: -1;
+}
+
+.pose_06 {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: end;
+  width: 150px;
+}
+
+.pose_06::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 25px;
+  margin-top: 10%;
+  background-color: #FF6FC5;
+  z-index: -1;
+}
+

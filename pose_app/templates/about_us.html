@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>關於我們</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="{% static 'css/about_us.css' %}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.min.js"></script>
+    <script src="{% static 'js/about_us.js' %}"></script>
+  </head>
+  <body>
+    <canvas id="canvas-basic"></canvas>
+    <div class="title"><h1>自製瑜珈健身鏡APP</h1></div>
+    <div class="container">
+      <div class="left">
+        <div class="about-text-container">
+          <h1 class="about-text">關於我們</h1>
+        </div>
+        <a href="/home" class="back fa fa-arrow-left"></a>
+      </div>
+      <div class="right">
+        <h1>許恆瑄</h1>
+        <h1>王婕宇</h1>
+        <h1>黃以昕</h1>
+        <h1>陳妤蓁老師、吳柏毅老師</h1>
+      </div>
+    </div>
+  </body>
+</html>

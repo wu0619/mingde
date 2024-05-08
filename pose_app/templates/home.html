@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>瑜珈健身鏡</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="{% static 'css/home.css' %}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <script src="{% static 'js/home.js' %}"></script>
+  </head>
+  <body>
+    <div class="title">瑜珈健身鏡</div>
+    <img id="example" />
+    <div class="button-container">
+      <a href="javascript:;" id="pose_00" class="pose_0">四足式</a>
+      <a href="javascript:;" id="pose_01" class="pose_1">平板式</a>
+      <a href="javascript:;" id="pose_02" class="pose_2">下犬式</a>
+      <a href="javascript:;" id="pose_03" class="pose_3">半魚式</a>
+      <a href="javascript:;" id="pose_04" class="pose_4">金字塔式</a>
+      <a href="javascript:;" id="pose_05" class="pose_5">眼鏡蛇式</a>
+      <a href="javascript:;" id="pose_06" class="pose_6">船式</a>
+      <a href="/about_us" id="about_us" class="about_us">關於我們</a>
+    </div>
+    <a href="javascript:;" class="start-button fa fa-play"><span>選一個動作開始</span></a>
+  </body>
+</html>

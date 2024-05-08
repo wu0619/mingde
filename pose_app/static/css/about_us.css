@@ -1,0 +1,99 @@
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  display: flex;
+  height: 95vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#canvas-basic {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.title {
+  width: 80%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.about-text-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-text {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: end;
+  width: 150px;
+}
+
+.about-text::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 25px;
+  margin-top: 10%;
+  background-color: #96ffdf;
+  z-index: -1;
+}
+
+.left {
+  width: 50%;
+  position: relative;
+  text-align: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.right h1 {
+  text-align: center;
+}
+
+.back {
+  font-size: 30px;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  background-color: #89f1ff;
+  padding: 30px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.back:hover {
+  background-color: #0fe3ff;
+}
+

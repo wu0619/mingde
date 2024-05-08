@@ -1,0 +1,146 @@
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.start-button span {
+  margin-left: 10px;
+  color: #5f5f5f;
+}
+
+.title {
+  margin: 5px;
+}
+
+#example {
+  height: 300px;
+  width: 400px;
+}
+
+
+.button-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  padding: 30px;
+}
+
+.button-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  height: 70px;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+}
+
+.pose_0 {
+  background-color: #ffe500;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.pose_0:hover {
+  background-color: #fff170;
+  border: 1px solid #2e2e2e;
+}
+
+.pose_1 {
+  background-color: #d3ff8b;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.pose_1:hover {
+  background-color: #b5f64d;
+  border: 1px solid #2e2e2e;
+}
+
+.pose_2 {
+  background-color: #db73ff;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.pose_2:hover {
+  background-color: #cc31ff;
+  border: 1px solid #2e2e2e;
+}
+
+.pose_3 {
+  background-color: #ff8b8b;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.pose_3:hover {
+  background-color: #ff5151;
+  border: 1px solid #2e2e2e;
+}
+
+.pose_4 {
+  background-color: #9eeeff;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.pose_4:hover {
+  background-color: #25d7ff;
+  border: 1px solid #2e2e2e;
+}
+
+.pose_5 {
+  background-color: #ffb55e;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.pose_5:hover {
+  background-color: #ff8800;
+  border: 1px solid #2e2e2e;
+}
+
+.pose_6 {
+  background-color: #ff6fc5;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.pose_6:hover {
+  background-color: #ffc0e6;
+  border: 1px solid #2e2e2e;
+}
+
+.about_us {
+  background-color: #96ffdf;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.about_us:hover {
+  background-color: #1bf7b5;
+  border: 1px solid #2e2e2e;
+}
+
+.start-button {
+  padding: 15px 75px 15px 75px;
+  font-size: 25px;
+  color: #fff;
+  background-color: #95fb7b;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.start-button:hover {
+  background-color: #5eff36;
+  border: 1px solid #2e2e2e;
+}
